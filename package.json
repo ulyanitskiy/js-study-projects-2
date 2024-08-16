@@ -1,27 +1,31 @@
 {
-  "name": "npm-example",
-  "version": "1.0.0",
-  "description": "-",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ulyanitskiy/npm.git"
-  },
-  "keywords": [
-    "npm",
-    "switch",
-    "case"
-  ],
-  "author": "Alexey Ulyanitskiy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ulyanitskiy/npm/issues"
-  },
-  "homepage": "https://github.com/ulyanitskiy/npm#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+    "name": "npm-example",
+    "version": "1.0.0",
+    "description": "-",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "npx prettier . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ulyanitskiy/npm.git"
+    },
+    "keywords": [
+        "npm",
+        "switch",
+        "case"
+    ],
+    "author": "Alexey Ulyanitskiy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ulyanitskiy/npm/issues"
+    },
+    "homepage": "https://github.com/ulyanitskiy/npm#readme",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "prettier": "3.3.3"
+    }
 }

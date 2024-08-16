@@ -1,14 +1,14 @@
-'use strict';
+'use strict'
 
-const hours = Number(prompt("Введите кол-во часов для продуктивного обучения"));
-const seconds = hours * 3600;
+const hours = Number(prompt('Введите кол-во часов для продуктивного обучения'))
+const seconds = hours * 3600
 
-let hourWord;
+let hourWord
 
 if (hours === 1) {
-    hourWord = "часе";
+    hourWord = 'часе'
 } else {
-    hourWord = "часах";
+    hourWord = 'часах'
 }
 
-alert(`В ${hours} ${hourWord} ${seconds} секунд.`);
+alert(`В ${hours} ${hourWord} ${seconds} секунд.`)
