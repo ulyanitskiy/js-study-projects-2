@@ -26,6 +26,8 @@
         "lodash": "^4.17.21"
     },
     "devDependencies": {
+        "eslint": "^8.2.0",
+        "eslint-config-airbnb": "^19.0.4",
         "prettier": "3.3.3"
     }
 }
