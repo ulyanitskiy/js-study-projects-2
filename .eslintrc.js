@@ -6,5 +6,6 @@ module.exports = {
     'no-alert': 'off',
     'no-console': 'off',
     'prefer-template': 'off',
+    'no-unused-vars': 'off',
   },
 };
