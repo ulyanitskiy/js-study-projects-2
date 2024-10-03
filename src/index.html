@@ -2,9 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <title>div - привид</title>
+        <style>
+            #infoBox {
+                display: none;
+                position: absolute;
+                left: 25%;
+                top: 50px;
+                padding: 10px;
+                background-color: honeydew;
+                border: 3px solid grey;
+            }
+        </style>
     </head>
     <body>
-        <script src="js/index.js"></script>
+        <input
+            type="text"
+            id="inputField"
+            placeholder="Наведіть фокус на мене"
+            onfocus="showInfoBox()"
+            onblur="hideInfoBox()"
+        />
+        <div id="infoBox">Зробив домашку?</div>
+
+        <script>
+            const showInfoBox = () => {
+                document.getElementById('infoBox').style.display = 'block'
+            }
+
+            const hideInfoBox = () => {
+                document.getElementById('infoBox').style.display = 'none'
+            }
+        </script>
     </body>
 </html>
